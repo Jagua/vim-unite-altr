@@ -1,0 +1,41 @@
+# vim-unite-altr
+
+*vim-unite-altr* is a Vim plugin. This plugin is a source for *unite.vim* to deal with *vim-altr*.
+
+This plugin depends on:
+* [vim-altr](https://github.com/kana/vim-altr)
+* [unite.vim](https://github.com/Shougo/unite.vim)
+
+Latest: https://github.com/Jagua/vim-unite-altr
+
+
+
+## Install
+
+
+### A) vim-plug
+
+```vim
+Plug 'Jagua/vim-unite-altr'
+```
+
+
+### B) NeoBundle
+
+```vim
+NeoBundle 'Jagua/vim-unite-altr'
+```
+
+
+## Key mappings
+
+```vim
+" prefix for Unite
+nnoremap [unite] <Nop>
+nmap <Space>u [unite]
+
+" for vim-unite-altr
+nnoremap [unite]al :<C-u>Unite altr<CR>
+```
+
+Typing `<Space>ual`, starts *vim-unite-altr*.
